@@ -1,0 +1,22 @@
+#15-Puzzle-Solver
+Aplikasi 15-Puzzle-Solver adalah sebuah aplikasi pemecah 15-Puzzle yang berbasis bahasa Python yang menggunakan algoritma Branch and Bound dalam penyelesaiannya. Aplikasi ini ditujukan untuk pemenuhan Tugas Kecil 3 Strategi Algoritma IF18 STEI ITB.
+
+##Cara Run
+1. Pastikan sudah terinstall compiler Python
+2. Buka cmd (Windows) atau terminal (Linux)
+3. Buka folder tempat file 15-Puzzle-Solver.py berada
+4. Compile dan run file 15-Puzzle-Solver.py
+5. Masukkan alamat dan nama file puzzle yang akan diselesaikan
+6. Program akan menyelesaikan puzzle dan mengeluarkan hasil olahannya
+
+##Keluaran Program
+1. Matriks posisi awal
+2. Nilai dari fungsi Kurang (i) untuk setiap ubin tidak kosong pada posisi awal (nilai ini tetap dikeluarkan, baik persoalan bisa diselesaikan atau tidak bisa diselesaikan)
+3. Nilai dari ∑_(i=1)^16▒〖KURANG(i)+X〗
+4. Jika persoalan tidak dapat diselesaikan (berdasarkan hasil butir 2) keluar pesan
+5. Jika persoalan dapat diselesaikan(berdasarkan hasil butir 2), menampilkan urutan matriks seperti pada penjelasan sebelumnya
+6. Waktu eksekusi
+7. Jumlah simpul yang dibangkitkan dalam pohon ruang status
+
+##Format File Puzzle
+File puzzle yang akan diselesaikan merupakan matriks 4×4 yang berisi angka 1-15 dan huruf X untuk melambangkan ubin kosong. Setiap angka atau huruf X dipisahkan dengan spasi kecuali setiap simbol keempat akan dipisahkan dengan enter. 
